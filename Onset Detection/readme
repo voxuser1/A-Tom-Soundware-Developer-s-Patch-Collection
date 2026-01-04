@@ -1,0 +1,17 @@
+🚀 Onset Detector
+A high-precision transient detection algorithm designed for real-time applications.
+
+Peak Finding: Uses dynamic thresholding (Local Average) to accurately pinpoint musical events.
+
+Smart Isolation: Effectively isolates transients from background noise.
+
+Customizable: Features adjustable hysteresis (cool-down time) to prevent double-triggering.
+
+Hardware Ready: Fully optimized for export to hardware like Pisound via RNBO.
+
+⚖️ License
+This Max/RNBO patch is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License (GPLv3).
+
+This patch is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+Copyright © 2020–2026 A-Tom Soundware
