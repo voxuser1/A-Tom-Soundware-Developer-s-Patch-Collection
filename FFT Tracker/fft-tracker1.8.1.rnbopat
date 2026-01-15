@@ -24,13 +24,13 @@
                     "patching_rect": [ 738.0, 135.0, 50.0, 23.0 ],
                     "rnbo_classname": "number",
                     "rnbo_extra_attributes": {
+                        "preset": 0,
+                        "order": "",
                         "maximum": "<none>",
                         "minimum": "<none>",
-                        "order": "",
-                        "preset": 0,
                         "initialFormat": "float"
                     },
-                    "rnbo_serial": 1,
+                    "rnbo_serial": 10,
                     "rnbo_uniqueid": "number_obj-31"
                 }
             },
@@ -125,10 +125,10 @@
                     "patching_rect": [ 656.5, 627.0, 43.0, 23.0 ],
                     "rnbo_classname": "out~",
                     "rnbo_extra_attributes": {
-                        "meta": "",
-                        "comment": ""
+                        "comment": "",
+                        "meta": ""
                     },
-                    "rnbo_serial": 1,
+                    "rnbo_serial": 10,
                     "rnbo_uniqueid": "out~_obj-3",
                     "rnboinfo": {
                         "needsInstanceInfo": 1,
@@ -218,10 +218,10 @@
                     "patching_rect": [ 565.0, 627.0, 43.0, 23.0 ],
                     "rnbo_classname": "out~",
                     "rnbo_extra_attributes": {
-                        "meta": "",
-                        "comment": ""
+                        "comment": "",
+                        "meta": ""
                     },
-                    "rnbo_serial": 2,
+                    "rnbo_serial": 11,
                     "rnbo_uniqueid": "out~_obj-8",
                     "rnboinfo": {
                         "needsInstanceInfo": 1,
@@ -311,10 +311,10 @@
                     "patching_rect": [ 480.0, 627.0, 43.0, 23.0 ],
                     "rnbo_classname": "out~",
                     "rnbo_extra_attributes": {
-                        "meta": "",
-                        "comment": ""
+                        "comment": "",
+                        "meta": ""
                     },
-                    "rnbo_serial": 3,
+                    "rnbo_serial": 12,
                     "rnbo_uniqueid": "out~_obj-4",
                     "rnboinfo": {
                         "needsInstanceInfo": 1,
@@ -404,10 +404,10 @@
                     "patching_rect": [ 395.0, 627.0, 43.0, 23.0 ],
                     "rnbo_classname": "out~",
                     "rnbo_extra_attributes": {
-                        "meta": "",
-                        "comment": ""
+                        "comment": "",
+                        "meta": ""
                     },
-                    "rnbo_serial": 4,
+                    "rnbo_serial": 13,
                     "rnbo_uniqueid": "out~_obj-5",
                     "rnboinfo": {
                         "needsInstanceInfo": 1,
@@ -497,10 +497,10 @@
                     "patching_rect": [ 310.0, 627.0, 43.0, 23.0 ],
                     "rnbo_classname": "out~",
                     "rnbo_extra_attributes": {
-                        "meta": "",
-                        "comment": ""
+                        "comment": "",
+                        "meta": ""
                     },
-                    "rnbo_serial": 5,
+                    "rnbo_serial": 14,
                     "rnbo_uniqueid": "out~_obj-11",
                     "rnboinfo": {
                         "needsInstanceInfo": 1,
@@ -590,10 +590,10 @@
                     "patching_rect": [ 225.0, 627.0, 43.0, 23.0 ],
                     "rnbo_classname": "out~",
                     "rnbo_extra_attributes": {
-                        "meta": "",
-                        "comment": ""
+                        "comment": "",
+                        "meta": ""
                     },
-                    "rnbo_serial": 6,
+                    "rnbo_serial": 15,
                     "rnbo_uniqueid": "out~_obj-24",
                     "rnboinfo": {
                         "needsInstanceInfo": 1,
@@ -683,10 +683,10 @@
                     "patching_rect": [ 140.0, 627.0, 43.0, 23.0 ],
                     "rnbo_classname": "out~",
                     "rnbo_extra_attributes": {
-                        "meta": "",
-                        "comment": ""
+                        "comment": "",
+                        "meta": ""
                     },
-                    "rnbo_serial": 7,
+                    "rnbo_serial": 16,
                     "rnbo_uniqueid": "out~_obj-25",
                     "rnboinfo": {
                         "needsInstanceInfo": 1,
@@ -776,10 +776,10 @@
                     "patching_rect": [ 55.0, 627.0, 43.0, 23.0 ],
                     "rnbo_classname": "out~",
                     "rnbo_extra_attributes": {
-                        "meta": "",
-                        "comment": ""
+                        "comment": "",
+                        "meta": ""
                     },
-                    "rnbo_serial": 8,
+                    "rnbo_serial": 17,
                     "rnbo_uniqueid": "out~_obj-2",
                     "rnboinfo": {
                         "needsInstanceInfo": 1,
@@ -870,11 +870,11 @@
                     "patching_rect": [ 602.0, 508.0, 34.0, 23.0 ],
                     "rnbo_classname": "ftom",
                     "rnbo_extra_attributes": {
+                        "filter": 1.0,
                         "round": 1,
-                        "scalename": "",
-                        "filter": 1.0
+                        "scalename": ""
                     },
-                    "rnbo_serial": 1,
+                    "rnbo_serial": 5,
                     "rnbo_uniqueid": "ftom_obj-62",
                     "rnboinfo": {
                         "needsInstanceInfo": 1,
@@ -1062,11 +1062,11 @@
                     "patching_rect": [ 432.0, 504.0, 34.0, 23.0 ],
                     "rnbo_classname": "ftom",
                     "rnbo_extra_attributes": {
+                        "filter": 1.0,
                         "round": 1,
-                        "scalename": "",
-                        "filter": 1.0
+                        "scalename": ""
                     },
-                    "rnbo_serial": 2,
+                    "rnbo_serial": 6,
                     "rnbo_uniqueid": "ftom_obj-61",
                     "rnboinfo": {
                         "needsInstanceInfo": 1,
@@ -1254,11 +1254,11 @@
                     "patching_rect": [ 262.0, 508.0, 34.0, 23.0 ],
                     "rnbo_classname": "ftom",
                     "rnbo_extra_attributes": {
+                        "filter": 1.0,
                         "round": 1,
-                        "scalename": "",
-                        "filter": 1.0
+                        "scalename": ""
                     },
-                    "rnbo_serial": 3,
+                    "rnbo_serial": 7,
                     "rnbo_uniqueid": "ftom_obj-60",
                     "rnboinfo": {
                         "needsInstanceInfo": 1,
@@ -1446,11 +1446,11 @@
                     "patching_rect": [ 93.83333611488342, 508.0, 34.0, 23.0 ],
                     "rnbo_classname": "ftom",
                     "rnbo_extra_attributes": {
+                        "filter": 1.0,
                         "round": 1,
-                        "scalename": "",
-                        "filter": 1.0
+                        "scalename": ""
                     },
-                    "rnbo_serial": 4,
+                    "rnbo_serial": 8,
                     "rnbo_uniqueid": "ftom_obj-59",
                     "rnboinfo": {
                         "needsInstanceInfo": 1,
@@ -1640,13 +1640,13 @@
                     "patching_rect": [ 602.0, 542.0, 50.0, 23.0 ],
                     "rnbo_classname": "number",
                     "rnbo_extra_attributes": {
+                        "preset": 0,
+                        "order": "",
                         "maximum": "<none>",
                         "minimum": "<none>",
-                        "order": "",
-                        "preset": 0,
                         "initialFormat": "float"
                     },
-                    "rnbo_serial": 2,
+                    "rnbo_serial": 11,
                     "rnbo_uniqueid": "number_obj-58"
                 }
             },
@@ -1662,13 +1662,13 @@
                     "patching_rect": [ 432.0, 538.0, 50.0, 23.0 ],
                     "rnbo_classname": "number",
                     "rnbo_extra_attributes": {
+                        "preset": 0,
+                        "order": "",
                         "maximum": "<none>",
                         "minimum": "<none>",
-                        "order": "",
-                        "preset": 0,
                         "initialFormat": "float"
                     },
-                    "rnbo_serial": 3,
+                    "rnbo_serial": 12,
                     "rnbo_uniqueid": "number_obj-57"
                 }
             },
@@ -1684,13 +1684,13 @@
                     "patching_rect": [ 262.0, 542.0, 50.0, 23.0 ],
                     "rnbo_classname": "number",
                     "rnbo_extra_attributes": {
+                        "preset": 0,
+                        "order": "",
                         "maximum": "<none>",
                         "minimum": "<none>",
-                        "order": "",
-                        "preset": 0,
                         "initialFormat": "float"
                     },
-                    "rnbo_serial": 4,
+                    "rnbo_serial": 13,
                     "rnbo_uniqueid": "number_obj-56"
                 }
             },
@@ -1706,13 +1706,13 @@
                     "patching_rect": [ 93.83333611488342, 542.0, 50.0, 23.0 ],
                     "rnbo_classname": "number",
                     "rnbo_extra_attributes": {
+                        "preset": 0,
+                        "order": "",
                         "maximum": "<none>",
                         "minimum": "<none>",
-                        "order": "",
-                        "preset": 0,
                         "initialFormat": "float"
                     },
-                    "rnbo_serial": 5,
+                    "rnbo_serial": 14,
                     "rnbo_uniqueid": "number_obj-55"
                 }
             },
@@ -1732,10 +1732,10 @@
                     "rnbo_classname": "number~",
                     "rnbo_extra_attributes": {
                         "initialMode": "monitor",
-                        "displaymode": "first",
-                        "interval": 100.0
+                        "interval": 100.0,
+                        "displaymode": "first"
                     },
-                    "rnbo_serial": 1,
+                    "rnbo_serial": 14,
                     "rnbo_uniqueid": "number~_obj-29",
                     "sig": 0.0
                 }
@@ -1756,10 +1756,10 @@
                     "rnbo_classname": "number~",
                     "rnbo_extra_attributes": {
                         "initialMode": "monitor",
-                        "displaymode": "first",
-                        "interval": 100.0
+                        "interval": 100.0,
+                        "displaymode": "first"
                     },
-                    "rnbo_serial": 2,
+                    "rnbo_serial": 15,
                     "rnbo_uniqueid": "number~_obj-28",
                     "sig": 0.0
                 }
@@ -1780,10 +1780,10 @@
                     "rnbo_classname": "number~",
                     "rnbo_extra_attributes": {
                         "initialMode": "monitor",
-                        "displaymode": "first",
-                        "interval": 100.0
+                        "interval": 100.0,
+                        "displaymode": "first"
                     },
-                    "rnbo_serial": 3,
+                    "rnbo_serial": 16,
                     "rnbo_uniqueid": "number~_obj-26",
                     "sig": 0.0
                 }
@@ -1804,10 +1804,10 @@
                     "rnbo_classname": "number~",
                     "rnbo_extra_attributes": {
                         "initialMode": "monitor",
-                        "displaymode": "first",
-                        "interval": 100.0
+                        "interval": 100.0,
+                        "displaymode": "first"
                     },
-                    "rnbo_serial": 4,
+                    "rnbo_serial": 17,
                     "rnbo_uniqueid": "number~_obj-22",
                     "sig": 0.0
                 }
@@ -1828,10 +1828,10 @@
                     "rnbo_classname": "number~",
                     "rnbo_extra_attributes": {
                         "initialMode": "monitor",
-                        "displaymode": "first",
-                        "interval": 100.0
+                        "interval": 100.0,
+                        "displaymode": "first"
                     },
-                    "rnbo_serial": 5,
+                    "rnbo_serial": 18,
                     "rnbo_uniqueid": "number~_obj-23",
                     "sig": 0.0
                 }
@@ -1852,10 +1852,10 @@
                     "rnbo_classname": "number~",
                     "rnbo_extra_attributes": {
                         "initialMode": "monitor",
-                        "displaymode": "first",
-                        "interval": 100.0
+                        "interval": 100.0,
+                        "displaymode": "first"
                     },
-                    "rnbo_serial": 6,
+                    "rnbo_serial": 19,
                     "rnbo_uniqueid": "number~_obj-20",
                     "sig": 0.0
                 }
@@ -1876,10 +1876,10 @@
                     "rnbo_classname": "number~",
                     "rnbo_extra_attributes": {
                         "initialMode": "monitor",
-                        "displaymode": "first",
-                        "interval": 100.0
+                        "interval": 100.0,
+                        "displaymode": "first"
                     },
-                    "rnbo_serial": 7,
+                    "rnbo_serial": 20,
                     "rnbo_uniqueid": "number~_obj-21",
                     "sig": 0.0
                 }
@@ -1900,10 +1900,10 @@
                     "rnbo_classname": "number~",
                     "rnbo_extra_attributes": {
                         "initialMode": "monitor",
-                        "displaymode": "first",
-                        "interval": 100.0
+                        "interval": 100.0,
+                        "displaymode": "first"
                     },
-                    "rnbo_serial": 8,
+                    "rnbo_serial": 21,
                     "rnbo_uniqueid": "number~_obj-18",
                     "sig": 0.0
                 }
@@ -1924,10 +1924,10 @@
                     "rnbo_classname": "number~",
                     "rnbo_extra_attributes": {
                         "initialMode": "monitor",
-                        "displaymode": "first",
-                        "interval": 100.0
+                        "interval": 100.0,
+                        "displaymode": "first"
                     },
-                    "rnbo_serial": 9,
+                    "rnbo_serial": 22,
                     "rnbo_uniqueid": "number~_obj-16",
                     "sig": 0.0
                 }
@@ -1944,13 +1944,13 @@
                     "patching_rect": [ 374.0, 135.0, 50.0, 23.0 ],
                     "rnbo_classname": "number",
                     "rnbo_extra_attributes": {
+                        "preset": 0,
+                        "order": "",
                         "maximum": "<none>",
                         "minimum": "<none>",
-                        "order": "",
-                        "preset": 0,
                         "initialFormat": "integer"
                     },
-                    "rnbo_serial": 6,
+                    "rnbo_serial": 15,
                     "rnbo_uniqueid": "number_obj-15"
                 }
             },
@@ -2052,10 +2052,10 @@
                     "rnbo_classname": "number~",
                     "rnbo_extra_attributes": {
                         "initialMode": "monitor",
-                        "displaymode": "first",
-                        "interval": 100.0
+                        "interval": 100.0,
+                        "displaymode": "first"
                     },
-                    "rnbo_serial": 10,
+                    "rnbo_serial": 23,
                     "rnbo_uniqueid": "number~_obj-13",
                     "sig": 0.0
                 }
@@ -2073,7 +2073,7 @@
                                 "modernui": 1
                             },
                             "classnamespace": "dsp.gen",
-                            "rect": [ 108.0, 125.0, 778.0, 567.0 ],
+                            "rect": [ 131.0, 249.0, 778.0, 567.0 ],
                             "boxes": [
                                 {
                                     "box": {
@@ -2159,14 +2159,14 @@
                                     "box": {
                                         "maxclass": "codebox",
                                         "patching_rect": [ 50.0, 105.0, 528.0, 339.0 ],
+                                        "outlettype": [ "", "", "", "", "", "", "", "" ],
                                         "id": "obj-7",
                                         "fontsize": 12.0,
-                                        "numinlets": 2,
                                         "fontname": "<Monospaced>",
+                                        "numinlets": 2,
                                         "numoutlets": 8,
                                         "fontface": 0,
-                                        "outlettype": [ "", "", "", "", "", "", "", "" ],
-                                        "code": "// =================================================\n// FFT TRACKER CORE 1.8.1 (FINAL FIX)\n// =================================================\n\n// =================================================\n// DATA & HISTORY\n// =================================================\nData spectrum(4096); \nHistory v1_f(0); History v1_a(0);\nHistory v2_f(0); History v2_a(0);\nHistory v3_f(0); History v3_a(0);\nHistory v4_f(0); History v4_a(0);\n\n// =================================================\n// INPUTS\n// =================================================\nraw_mag = in1; \nsync    = in2; // Incoming range is 0...1023!\n\n// INPUT SCALE\nsafe_size = max(256, fft_size); // Protection against 0\nmag = raw_mag * (4.0 / safe_size); \n\n// INDEX CALCULATION\n// Since sync is already 0..1023, we use it directly!\nbin_idx = floor(sync); \n\nhalfsize = safe_size * 0.5;\n\n// =================================================\n// WRITE (Fill Spectrum)\n// =================================================\n// Safety check: Only write if within buffer range\nif (bin_idx < 4096) {\n    poke(spectrum, mag, bin_idx);\n}\n\n// =================================================\n// ANALYSIS (Trigger at end of frame)\n// =================================================\nif (bin_idx >= halfsize - 2 && bin_idx < halfsize + 64) { \n\n    thresh = 0.005; \n    \n    // Reset\n    best1_idx=-1; val1=0;\n    best2_idx=-1; val2=0;\n    best3_idx=-1; val3=0;\n    best4_idx=-1; val4=0;\n\n    // --- SCAN LOOP ---\n    // Start at 4 to ignore DC offset/rumble\n    for (i = 4; i < halfsize - 4; i += 1) {\n        \n        c = peek(spectrum, i);\n        \n        // Bass Bias (Prefer lower frequencies)\n        // Weighting: sqrt(i) creates a gentle curve\n        weight = 10.0 / sqrt(i); \n        c_weighted = c * weight;\n\n        p = peek(spectrum, i-1);\n        n = peek(spectrum, i+1);\n\n        // Peak Detection\n        if (c > thresh && c > p && c > n) {\n            \n            // Highscore (with weighting)\n            if (c_weighted > val1) {\n                val4=val3; best4_idx=best3_idx;\n                val3=val2; best3_idx=best2_idx;\n                val2=val1; best2_idx=best1_idx;\n                val1=c_weighted; best1_idx=i;\n            } \n            else if (c_weighted > val2) {\n                val4=val3; best4_idx=best3_idx;\n                val3=val2; best3_idx=best2_idx;\n                val2=c_weighted; best2_idx=i;\n            } \n            else if (c_weighted > val3) {\n                val4=val3; best4_idx=best3_idx;\n                val3=c_weighted; best3_idx=i;\n            }\n            else if (c_weighted > val4) {\n                val4=c_weighted; best4_idx=i;\n            }\n        }\n    }\n\n    // --- CLEANUP (Shift up too-close peaks) ---\n    min_dist = 3; \n\n    // Conflict 2 vs 1\n    if (abs(best2_idx - best1_idx) < min_dist) {\n        best2_idx = best3_idx; val2 = val3;\n        best3_idx = best4_idx; val3 = val4;\n        best4_idx = -1;        val4 = 0;\n    }\n    // Conflict 3 vs 1/2\n    if (abs(best3_idx - best1_idx) < min_dist || abs(best3_idx - best2_idx) < min_dist) {\n        best3_idx = best4_idx; val3 = val4;\n        best4_idx = -1;        val4 = 0;\n    }\n    // Conflict 4\n    if (abs(best4_idx - best1_idx) < min_dist || abs(best4_idx - best2_idx) < min_dist || abs(best4_idx - best3_idx) < min_dist) {\n        best4_idx = -1; \n    }\n\n    // --- OUTPUT CALCULATION ---\n    hz_bin = samplerate / safe_size;\n    smooth = 0.3; \n\n    // Voice 1\n    if (best1_idx > 0) {\n        idx = best1_idx;\n        real_amp = peek(spectrum, idx); // Use real amplitude!\n        p = peek(spectrum, idx-1); c = peek(spectrum, idx); n = peek(spectrum, idx+1);\n        denom = p - 2 * c + n;\n        delta = (abs(denom) > 1e-6) ? 0.5 * (p - n) / denom : 0;\n        v1_f += ((idx + delta) * hz_bin - v1_f) * smooth;\n        v1_a = real_amp;\n    } else { v1_a *= 0.8; }\n\n    // Voice 2\n    if (best2_idx > 0) {\n        idx = best2_idx;\n        real_amp = peek(spectrum, idx);\n        p = peek(spectrum, idx-1); c = peek(spectrum, idx); n = peek(spectrum, idx+1);\n        denom = p - 2 * c + n;\n        delta = (abs(denom) > 1e-6) ? 0.5 * (p - n) / denom : 0;\n        v2_f += ((idx + delta) * hz_bin - v2_f) * smooth;\n        v2_a = real_amp;\n    } else { v2_a *= 0.8; }\n    \n    // Voice 3\n    if (best3_idx > 0) {\n        idx = best3_idx;\n        real_amp = peek(spectrum, idx);\n        p = peek(spectrum, idx-1); c = peek(spectrum, idx); n = peek(spectrum, idx+1);\n        denom = p - 2 * c + n;\n        delta = (abs(denom) > 1e-6) ? 0.5 * (p - n) / denom : 0;\n        v3_f += ((idx + delta) * hz_bin - v3_f) * smooth;\n        v3_a = real_amp;\n    } else { v3_a *= 0.8; }\n\n    // Voice 4\n    if (best4_idx > 0) {\n        idx = best4_idx;\n        real_amp = peek(spectrum, idx);\n        p = peek(spectrum, idx-1); c = peek(spectrum, idx); n = peek(spectrum, idx+1);\n        denom = p - 2 * c + n;\n        delta = (abs(denom) > 1e-6) ? 0.5 * (p - n) / denom : 0;\n        v4_f += ((idx + delta) * hz_bin - v4_f) * smooth;\n        v4_a = real_amp;\n    } else { v4_a *= 0.8; }\n}\n\nout1 = v1_f; out2 = v1_a;\nout3 = v2_f; out4 = v2_a;\nout5 = v3_f; out6 = v3_a;\nout7 = v4_f; out8 = v4_a;"
+                                        "code": "// =================================================\n// FFT TRACKER CORE 1.8.1 (ZERO RESET)\n// =================================================\n\n// =================================================\n// DATA & HISTORY\n// =================================================\nData spectrum(4096); \nHistory v1_f(0); History v1_a(0);\nHistory v2_f(0); History v2_a(0);\nHistory v3_f(0); History v3_a(0);\nHistory v4_f(0); History v4_a(0);\n\n// =================================================\n// INPUTS\n// =================================================\nraw_mag = in1; \nsync    = in2; // Incoming range is 0...1023!\n\n// INPUT SCALE\nsafe_size = max(256, fft_size); // Protection against 0\nmag = raw_mag * (4.0 / safe_size); \n\n// INDEX CALCULATION\nbin_idx = floor(sync); \n\nhalfsize = safe_size * 0.5;\n\n// =================================================\n// WRITE (Fill Spectrum)\n// =================================================\nif (bin_idx < 4096) {\n    poke(spectrum, mag, bin_idx);\n}\n\n// =================================================\n// ANALYSIS (Trigger at end of frame)\n// =================================================\nif (bin_idx >= halfsize - 2 && bin_idx < halfsize + 64) { \n\n    thresh = 0.003; \n    \n    // Reset\n    best1_idx=-1; val1=0;\n    best2_idx=-1; val2=0;\n    best3_idx=-1; val3=0;\n    best4_idx=-1; val4=0;\n\n    // --- SCAN LOOP ---\n    for (i = 4; i < halfsize - 4; i += 1) {\n        \n        c = peek(spectrum, i);\n        \n        // Bass Bias (Prefer lower frequencies)\n        // Set to \"weight = 1.0;\" if you want flat response (e.g. for Drums)\n        weight = 10.0 / sqrt(i); \n        c_weighted = c * weight;\n\n        p = peek(spectrum, i-1);\n        n = peek(spectrum, i+1);\n\n        // Peak Detection\n        if (c > thresh && c > p && c > n) {\n            \n            // Highscore (with weighting)\n            if (c_weighted > val1) {\n                val4=val3; best4_idx=best3_idx;\n                val3=val2; best3_idx=best2_idx;\n                val2=val1; best2_idx=best1_idx;\n                val1=c_weighted; best1_idx=i;\n            } \n            else if (c_weighted > val2) {\n                val4=val3; best4_idx=best3_idx;\n                val3=val2; best3_idx=best2_idx;\n                val2=c_weighted; best2_idx=i;\n            } \n            else if (c_weighted > val3) {\n                val4=val3; best4_idx=best3_idx;\n                val3=c_weighted; best3_idx=i;\n            }\n            else if (c_weighted > val4) {\n                val4=c_weighted; best4_idx=i;\n            }\n        }\n    }\n\n    // --- CLEANUP (Shift up too-close peaks) ---\n    min_dist = 3; \n\n    // Conflict 2 vs 1\n    if (abs(best2_idx - best1_idx) < min_dist) {\n        best2_idx = best3_idx; val2 = val3;\n        best3_idx = best4_idx; val3 = val4;\n        best4_idx = -1;        val4 = 0;\n    }\n    // Conflict 3 vs 1/2\n    if (abs(best3_idx - best1_idx) < min_dist || abs(best3_idx - best2_idx) < min_dist) {\n        best3_idx = best4_idx; val3 = val4;\n        best4_idx = -1;        val4 = 0;\n    }\n    // Conflict 4\n    if (abs(best4_idx - best1_idx) < min_dist || abs(best4_idx - best2_idx) < min_dist || abs(best4_idx - best3_idx) < min_dist) {\n        best4_idx = -1; \n    }\n\n    // --- OUTPUT CALCULATION ---\n    hz_bin = samplerate / safe_size;\n    smooth = 0.3; \n\n    // Voice 1\n    if (best1_idx > 0) {\n        idx = best1_idx;\n        real_amp = peek(spectrum, idx); \n        p = peek(spectrum, idx-1); c = peek(spectrum, idx); n = peek(spectrum, idx+1);\n        denom = p - 2 * c + n;\n        delta = (abs(denom) > 1e-6) ? 0.5 * (p - n) / denom : 0;\n        v1_f += ((idx + delta) * hz_bin - v1_f) * smooth;\n        v1_a = real_amp;\n    } else { \n        v1_a *= 0.8; \n        v1_f = 0; // RESET FREQ TO 0\n    }\n\n    // Voice 2\n    if (best2_idx > 0) {\n        idx = best2_idx;\n        real_amp = peek(spectrum, idx);\n        p = peek(spectrum, idx-1); c = peek(spectrum, idx); n = peek(spectrum, idx+1);\n        denom = p - 2 * c + n;\n        delta = (abs(denom) > 1e-6) ? 0.5 * (p - n) / denom : 0;\n        v2_f += ((idx + delta) * hz_bin - v2_f) * smooth;\n        v2_a = real_amp;\n    } else { \n        v2_a *= 0.8; \n        v2_f = 0; // RESET FREQ TO 0\n    }\n    \n    // Voice 3\n    if (best3_idx > 0) {\n        idx = best3_idx;\n        real_amp = peek(spectrum, idx);\n        p = peek(spectrum, idx-1); c = peek(spectrum, idx); n = peek(spectrum, idx+1);\n        denom = p - 2 * c + n;\n        delta = (abs(denom) > 1e-6) ? 0.5 * (p - n) / denom : 0;\n        v3_f += ((idx + delta) * hz_bin - v3_f) * smooth;\n        v3_a = real_amp;\n    } else { \n        v3_a *= 0.8; \n        v3_f = 0; // RESET FREQ TO 0\n    }\n\n    // Voice 4\n    if (best4_idx > 0) {\n        idx = best4_idx;\n        real_amp = peek(spectrum, idx);\n        p = peek(spectrum, idx-1); c = peek(spectrum, idx); n = peek(spectrum, idx+1);\n        denom = p - 2 * c + n;\n        delta = (abs(denom) > 1e-6) ? 0.5 * (p - n) / denom : 0;\n        v4_f += ((idx + delta) * hz_bin - v4_f) * smooth;\n        v4_a = real_amp;\n    } else { \n        v4_a *= 0.8; \n        v4_f = 0; // RESET FREQ TO 0\n    }\n}\n\nout1 = v1_f; out2 = v1_a;\nout3 = v2_f; out4 = v2_a;\nout5 = v3_f; out6 = v3_a;\nout7 = v4_f; out8 = v4_a;"
                                     }
                                 },
                                 {
@@ -2184,10 +2184,10 @@
                                         "maxclass": "newobj",
                                         "text": "param fft_size 1024",
                                         "patching_rect": [ 633.0, 14.0, 114.0, 22.0 ],
+                                        "outlettype": [ "" ],
                                         "id": "obj-5",
                                         "numinlets": 0,
-                                        "numoutlets": 1,
-                                        "outlettype": [ "" ]
+                                        "numoutlets": 1
                                     }
                                 },
                                 {
@@ -2195,10 +2195,10 @@
                                         "maxclass": "newobj",
                                         "text": "in 1",
                                         "patching_rect": [ 50.0, 14.0, 28.0, 22.0 ],
+                                        "outlettype": [ "" ],
                                         "id": "obj-1",
                                         "numinlets": 0,
-                                        "numoutlets": 1,
-                                        "outlettype": [ "" ]
+                                        "numoutlets": 1
                                     }
                                 },
                                 {
@@ -2206,10 +2206,10 @@
                                         "maxclass": "newobj",
                                         "text": "in 2",
                                         "patching_rect": [ 559.0, 14.0, 28.0, 22.0 ],
+                                        "outlettype": [ "" ],
                                         "id": "obj-2",
                                         "numinlets": 0,
-                                        "numoutlets": 1,
-                                        "outlettype": [ "" ]
+                                        "numoutlets": 1
                                     }
                                 },
                                 {
@@ -2302,11 +2302,11 @@
                     "rnbo_classname": "gen~",
                     "rnbo_extra_attributes": {
                         "exposeparams": 0,
-                        "gencode": "Param fft_size(1024);\nData spectrum(4096, 1);\nHistory v1_f(0);\nHistory v1_a(0);\nHistory v2_f(0);\nHistory v2_a(0);\nHistory v3_f(0);\nHistory v3_a(0);\nHistory v4_f(0);\nHistory v4_a(0);\nout9 = fft_size;\nsafe_size = max(256, fft_size);\nmag = in1 * (4 / safe_size);\nbin_idx = floor(in2);\nhalfsize = safe_size * 0.5;\nif(bin_idx < 4096) {\n\tpoke(spectrum, mag, bin_idx, 0, 0);\n}\nif((bin_idx >= (halfsize - 2)) && (bin_idx < (halfsize + 64))) {\n\tbest1_idx = -1;\n\tval1 = 0;\n\tbest2_idx = -1;\n\tval2 = 0;\n\tbest3_idx = -1;\n\tval3 = 0;\n\tbest4_idx = -1;\n\tval4 = 0;\n\tfor(i = 4; i < (halfsize - 4); i = i + 1) {\n\t\tc = peek(spectrum, i, 0);\n\t\tweight = 10 / (sqrt(i));\n\t\tc_weighted = c * weight;\n\t\tp = peek(spectrum, i - 1, 0);\n\t\tn = peek(spectrum, i + 1, 0);\n\t\tif((((c > 0.005) && (c > p))) && (c > n)) {\n\t\t\tif(c_weighted > val1) {\n\t\t\t\tval4 = val3;\n\t\t\t\tbest4_idx = best3_idx;\n\t\t\t\tval3 = val2;\n\t\t\t\tbest3_idx = best2_idx;\n\t\t\t\tval2 = val1;\n\t\t\t\tbest2_idx = best1_idx;\n\t\t\t\tval1 = c_weighted;\n\t\t\t\tbest1_idx = i;\n\t\t\t}\n\t\t\telse if(c_weighted > val2) {\n\t\t\t\tval4 = val3;\n\t\t\t\tbest4_idx = best3_idx;\n\t\t\t\tval3 = val2;\n\t\t\t\tbest3_idx = best2_idx;\n\t\t\t\tval2 = c_weighted;\n\t\t\t\tbest2_idx = i;\n\t\t\t}\n\t\t\telse if(c_weighted > val3) {\n\t\t\t\tval4 = val3;\n\t\t\t\tbest4_idx = best3_idx;\n\t\t\t\tval3 = c_weighted;\n\t\t\t\tbest3_idx = i;\n\t\t\t}\n\t\t\telse if(c_weighted > val4) {\n\t\t\t\tval4 = c_weighted;\n\t\t\t\tbest4_idx = i;\n\t\t\t}\n\t\t}\n\t}\n\tif((abs(best2_idx - best1_idx)) < 3) {\n\t\tbest2_idx = best3_idx;\n\t\tval2 = val3;\n\t\tbest3_idx = best4_idx;\n\t\tval3 = val4;\n\t\tbest4_idx = -1;\n\t\tval4 = 0;\n\t}\n\tif(((abs(best3_idx - best1_idx)) < 3) || ((abs(best3_idx - best2_idx)) < 3)) {\n\t\tbest3_idx = best4_idx;\n\t\tval3 = val4;\n\t\tbest4_idx = -1;\n\t\tval4 = 0;\n\t}\n\tif(((((abs(best4_idx - best1_idx)) < 3) || ((abs(best4_idx - best2_idx)) < 3))) || ((abs(best4_idx - best3_idx)) < 3)) {\n\t\tbest4_idx = -1;\n\t}\n\thz_bin = samplerate / safe_size;\n\tif(best1_idx > 0) {\n\t\tidx = best1_idx;\n\t\treal_amp = peek(spectrum, idx, 0);\n\t\tp = peek(spectrum, idx - 1, 0);\n\t\tc = peek(spectrum, idx, 0);\n\t\tn = peek(spectrum, idx + 1, 0);\n\t\tdenom = (p - (2 * c)) + n;\n\t\tdelta = (abs(denom)) > 1e-06 ? ((0.5 * ((p - n)))) / denom : 0;\n\t\tv1_f = v1_f + ((((((idx + delta)) * hz_bin) - v1_f)) * 0.3);\n\t\tv1_a = real_amp;\n\t}\n\telse {\n\t\tv1_a = v1_a * 0.8;\n\t}\n\tif(best2_idx > 0) {\n\t\tidx = best2_idx;\n\t\treal_amp = peek(spectrum, idx, 0);\n\t\tp = peek(spectrum, idx - 1, 0);\n\t\tc = peek(spectrum, idx, 0);\n\t\tn = peek(spectrum, idx + 1, 0);\n\t\tdenom = (p - (2 * c)) + n;\n\t\tdelta = (abs(denom)) > 1e-06 ? ((0.5 * ((p - n)))) / denom : 0;\n\t\tv2_f = v2_f + ((((((idx + delta)) * hz_bin) - v2_f)) * 0.3);\n\t\tv2_a = real_amp;\n\t}\n\telse {\n\t\tv2_a = v2_a * 0.8;\n\t}\n\tif(best3_idx > 0) {\n\t\tidx = best3_idx;\n\t\treal_amp = peek(spectrum, idx, 0);\n\t\tp = peek(spectrum, idx - 1, 0);\n\t\tc = peek(spectrum, idx, 0);\n\t\tn = peek(spectrum, idx + 1, 0);\n\t\tdenom = (p - (2 * c)) + n;\n\t\tdelta = (abs(denom)) > 1e-06 ? ((0.5 * ((p - n)))) / denom : 0;\n\t\tv3_f = v3_f + ((((((idx + delta)) * hz_bin) - v3_f)) * 0.3);\n\t\tv3_a = real_amp;\n\t}\n\telse {\n\t\tv3_a = v3_a * 0.8;\n\t}\n\tif(best4_idx > 0) {\n\t\tidx = best4_idx;\n\t\treal_amp = peek(spectrum, idx, 0);\n\t\tp = peek(spectrum, idx - 1, 0);\n\t\tc = peek(spectrum, idx, 0);\n\t\tn = peek(spectrum, idx + 1, 0);\n\t\tdenom = (p - (2 * c)) + n;\n\t\tdelta = (abs(denom)) > 1e-06 ? ((0.5 * ((p - n)))) / denom : 0;\n\t\tv4_f = v4_f + ((((((idx + delta)) * hz_bin) - v4_f)) * 0.3);\n\t\tv4_a = real_amp;\n\t}\n\telse {\n\t\tv4_a = v4_a * 0.8;\n\t}\n}\nexpr_1 = v1_f;\nexpr_2 = v1_a;\nexpr_3 = v2_f;\nexpr_4 = v2_a;\nexpr_5 = v3_f;\nexpr_6 = v3_a;\nexpr_7 = v4_f;\nexpr_8 = v4_a;\nout3 = expr_3;\nout2 = expr_2;\nout8 = expr_8;\nout5 = expr_5;\nout6 = expr_6;\nout1 = expr_1;\nout4 = expr_4;\nout7 = expr_7;",
+                        "gencode": "Param fft_size(1024);\nData spectrum(4096, 1);\nHistory v1_f(0);\nHistory v1_a(0);\nHistory v2_f(0);\nHistory v2_a(0);\nHistory v3_f(0);\nHistory v3_a(0);\nHistory v4_f(0);\nHistory v4_a(0);\nout9 = fft_size;\nsafe_size = max(256, fft_size);\nmag = in1 * (4 / safe_size);\nbin_idx = floor(in2);\nhalfsize = safe_size * 0.5;\nif(bin_idx < 4096) {\n\tpoke(spectrum, mag, bin_idx, 0, 0);\n}\nif((bin_idx >= (halfsize - 2)) && (bin_idx < (halfsize + 64))) {\n\tbest1_idx = -1;\n\tval1 = 0;\n\tbest2_idx = -1;\n\tval2 = 0;\n\tbest3_idx = -1;\n\tval3 = 0;\n\tbest4_idx = -1;\n\tval4 = 0;\n\tfor(i = 4; i < (halfsize - 4); i = i + 1) {\n\t\tc = peek(spectrum, i, 0);\n\t\tweight = 10 / (sqrt(i));\n\t\tc_weighted = c * weight;\n\t\tp = peek(spectrum, i - 1, 0);\n\t\tn = peek(spectrum, i + 1, 0);\n\t\tif((((c > 0.003) && (c > p))) && (c > n)) {\n\t\t\tif(c_weighted > val1) {\n\t\t\t\tval4 = val3;\n\t\t\t\tbest4_idx = best3_idx;\n\t\t\t\tval3 = val2;\n\t\t\t\tbest3_idx = best2_idx;\n\t\t\t\tval2 = val1;\n\t\t\t\tbest2_idx = best1_idx;\n\t\t\t\tval1 = c_weighted;\n\t\t\t\tbest1_idx = i;\n\t\t\t}\n\t\t\telse if(c_weighted > val2) {\n\t\t\t\tval4 = val3;\n\t\t\t\tbest4_idx = best3_idx;\n\t\t\t\tval3 = val2;\n\t\t\t\tbest3_idx = best2_idx;\n\t\t\t\tval2 = c_weighted;\n\t\t\t\tbest2_idx = i;\n\t\t\t}\n\t\t\telse if(c_weighted > val3) {\n\t\t\t\tval4 = val3;\n\t\t\t\tbest4_idx = best3_idx;\n\t\t\t\tval3 = c_weighted;\n\t\t\t\tbest3_idx = i;\n\t\t\t}\n\t\t\telse if(c_weighted > val4) {\n\t\t\t\tval4 = c_weighted;\n\t\t\t\tbest4_idx = i;\n\t\t\t}\n\t\t}\n\t}\n\tif((abs(best2_idx - best1_idx)) < 3) {\n\t\tbest2_idx = best3_idx;\n\t\tval2 = val3;\n\t\tbest3_idx = best4_idx;\n\t\tval3 = val4;\n\t\tbest4_idx = -1;\n\t\tval4 = 0;\n\t}\n\tif(((abs(best3_idx - best1_idx)) < 3) || ((abs(best3_idx - best2_idx)) < 3)) {\n\t\tbest3_idx = best4_idx;\n\t\tval3 = val4;\n\t\tbest4_idx = -1;\n\t\tval4 = 0;\n\t}\n\tif(((((abs(best4_idx - best1_idx)) < 3) || ((abs(best4_idx - best2_idx)) < 3))) || ((abs(best4_idx - best3_idx)) < 3)) {\n\t\tbest4_idx = -1;\n\t}\n\thz_bin = samplerate / safe_size;\n\tif(best1_idx > 0) {\n\t\tidx = best1_idx;\n\t\treal_amp = peek(spectrum, idx, 0);\n\t\tp = peek(spectrum, idx - 1, 0);\n\t\tc = peek(spectrum, idx, 0);\n\t\tn = peek(spectrum, idx + 1, 0);\n\t\tdenom = (p - (2 * c)) + n;\n\t\tdelta = (abs(denom)) > 1e-06 ? ((0.5 * ((p - n)))) / denom : 0;\n\t\tv1_f = v1_f + ((((((idx + delta)) * hz_bin) - v1_f)) * 0.3);\n\t\tv1_a = real_amp;\n\t}\n\telse {\n\t\tv1_a = v1_a * 0.8;\n\t\tv1_f = 0;\n\t}\n\tif(best2_idx > 0) {\n\t\tidx = best2_idx;\n\t\treal_amp = peek(spectrum, idx, 0);\n\t\tp = peek(spectrum, idx - 1, 0);\n\t\tc = peek(spectrum, idx, 0);\n\t\tn = peek(spectrum, idx + 1, 0);\n\t\tdenom = (p - (2 * c)) + n;\n\t\tdelta = (abs(denom)) > 1e-06 ? ((0.5 * ((p - n)))) / denom : 0;\n\t\tv2_f = v2_f + ((((((idx + delta)) * hz_bin) - v2_f)) * 0.3);\n\t\tv2_a = real_amp;\n\t}\n\telse {\n\t\tv2_a = v2_a * 0.8;\n\t\tv2_f = 0;\n\t}\n\tif(best3_idx > 0) {\n\t\tidx = best3_idx;\n\t\treal_amp = peek(spectrum, idx, 0);\n\t\tp = peek(spectrum, idx - 1, 0);\n\t\tc = peek(spectrum, idx, 0);\n\t\tn = peek(spectrum, idx + 1, 0);\n\t\tdenom = (p - (2 * c)) + n;\n\t\tdelta = (abs(denom)) > 1e-06 ? ((0.5 * ((p - n)))) / denom : 0;\n\t\tv3_f = v3_f + ((((((idx + delta)) * hz_bin) - v3_f)) * 0.3);\n\t\tv3_a = real_amp;\n\t}\n\telse {\n\t\tv3_a = v3_a * 0.8;\n\t\tv3_f = 0;\n\t}\n\tif(best4_idx > 0) {\n\t\tidx = best4_idx;\n\t\treal_amp = peek(spectrum, idx, 0);\n\t\tp = peek(spectrum, idx - 1, 0);\n\t\tc = peek(spectrum, idx, 0);\n\t\tn = peek(spectrum, idx + 1, 0);\n\t\tdenom = (p - (2 * c)) + n;\n\t\tdelta = (abs(denom)) > 1e-06 ? ((0.5 * ((p - n)))) / denom : 0;\n\t\tv4_f = v4_f + ((((((idx + delta)) * hz_bin) - v4_f)) * 0.3);\n\t\tv4_a = real_amp;\n\t}\n\telse {\n\t\tv4_a = v4_a * 0.8;\n\t\tv4_f = 0;\n\t}\n}\nexpr_1 = v1_f;\nexpr_2 = v1_a;\nexpr_3 = v2_f;\nexpr_4 = v2_a;\nexpr_5 = v3_f;\nexpr_6 = v3_a;\nexpr_7 = v4_f;\nexpr_8 = v4_a;\nout6 = expr_6;\nout3 = expr_3;\nout4 = expr_4;\nout1 = expr_1;\nout7 = expr_7;\nout2 = expr_2;\nout5 = expr_5;\nout8 = expr_8;",
                         "geninlets": 2,
                         "genoutlets": 9
                     },
-                    "rnbo_serial": 1,
+                    "rnbo_serial": 2,
                     "rnbo_uniqueid": "gen~_obj-10",
                     "rnboinfo": {
                         "needsInstanceInfo": 1,
@@ -2724,10 +2724,10 @@
                     "patching_rect": [ 93.33333611488342, 33.33333432674408, 35.0, 23.0 ],
                     "rnbo_classname": "in~",
                     "rnbo_extra_attributes": {
-                        "meta": "",
-                        "comment": ""
+                        "comment": "",
+                        "meta": ""
                     },
-                    "rnbo_serial": 1,
+                    "rnbo_serial": 2,
                     "rnbo_uniqueid": "in~_obj-12",
                     "rnboinfo": {
                         "needsInstanceInfo": 1,
@@ -2816,7 +2816,7 @@
                     "outlettype": [ "signal", "signal" ],
                     "patching_rect": [ 93.5, 207.0, 96.0, 23.0 ],
                     "rnbo_classname": "cartopol~",
-                    "rnbo_serial": 1,
+                    "rnbo_serial": 2,
                     "rnbo_uniqueid": "cartopol~_obj-6",
                     "text": "cartopol~"
                 }
@@ -2834,7 +2834,7 @@
                         "win_bufname": "RNBODefaultFftWindow",
                         "phase": 0
                     },
-                    "rnbo_serial": 1,
+                    "rnbo_serial": 2,
                     "rnbo_uniqueid": "fft~_obj-1",
                     "text": "fft~ #1 #2 @window hann"
                 }
@@ -2848,7 +2848,7 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 374.0, 207.0, 65.0, 23.0 ],
                     "rnbo_classname": "set",
-                    "rnbo_serial": 1,
+                    "rnbo_serial": 4,
                     "rnbo_uniqueid": "set_obj-53",
                     "rnboinfo": {
                         "needsInstanceInfo": 1,
