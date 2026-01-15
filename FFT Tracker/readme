@@ -1,44 +1,72 @@
-Max/RNBO Spectral Pitch Tracker Collection
+# Max/RNBO Spectral Pitch Tracker Collection
+
 A collection of high-performance spectral analysis tools for Max/MSP and RNBO.
 
-This repository contains two distinct approaches to pitch tracking, ranging from ultra-fast transient detection to high-precision harmonic analysis using gen~.
+This repository contains two distinct approaches to pitch tracking, ranging from ultra-fast transient detection to high-precision harmonic analysis using `gen~`.
 
-📦 Modules
-1. fft-tracker1 (The "Fast One")
+## 📦 Modules
 
-Based on the classic FFT7 design.
+### 1. fft-tracker1 (The "Fast One")
+*Based on the classic FFT7 design.*
 
-Best for: Percussive signals, drums, highly rhythmic sounds.
+* **Best for:** Percussive signals, drums, highly rhythmic sounds.
+* **Recommended Setting:** `@args 256`
+* **Key Strength:** Responsiveness & Transients.
 
-Recommended Setting: @args 256
+Due to the small window size (256 samples), this tracker reacts extremely fast to impulses. It minimizes timing smear, making it ideal for rhythm-critical applications.
+*Note: Due to the small window, pitch detection in the low bass range is physically less accurate.*
 
-Key Strength: Responsiveness & Transients.
+---
 
-Due to the small window size (256 samples), this tracker reacts extremely fast to impulses. It minimizes timing smear, making it ideal for rhythm-critical applications. Note: Due to the small window, pitch detection in the low bass range is physically less accurate.
+### 2. fft-tracker1.7 (The "Precise One")
+*A complete redevelopment in gen~ featuring an intelligent Tone/Noise mixer.*
 
-2. fft-tracker1.7 (The "Precise One")
-
-A complete redevelopment in gen~ featuring an intelligent Tone/Noise mixer.
-
-Best for: Monophonic instruments (Guitar, Vocals, Bass, Synths).
-
-Recommended Setting: @args 1024 or @args 2048
-
-Key Strength: Exact frequency analysis & harmonic stability.
+* **Best for:** Monophonic instruments (Guitar, Vocals, Bass, Synths).
+* **Recommended Setting:** `@args 1024` or `@args 2048`
+* **Key Strength:** Exact frequency analysis & harmonic stability.
 
 This tracker is optimized for resolution. It requires a larger window (1024+) to cleanly separate overtones and calculate precise harmonies.
 
-✨ Special Feature: Smart Tone/Noise Mixing Although it uses a larger analysis window, the tracker feels "direct" on attacks. It achieves this by dynamically crossfading internally between Noise (during the attack phase) and Tone (during the sustain phase). This gives you the best of both worlds: tight attacks and stable pitch.
+#### ✨ Special Feature: Smart Tone/Noise Mixing
+Although it uses a larger analysis window, the tracker feels "direct" on attacks. It achieves this by dynamically crossfading internally between **Noise** (during the attack phase) and **Tone** (during the sustain phase). This gives you the best of both worlds: tight attacks and stable pitch.
 
-RNBO Ready: Because fft-tracker1.7 is built entirely inside gen~, it is fully compatible with Cycling '74's RNBO. It can be exported to VST, Raspberry Pi, Web Audio, and more.
+#### ⚡ RNBO Ready
+Because `fft-tracker1.7` is built entirely inside `gen~`, it is fully compatible with Cycling '74's **RNBO**. It can be exported to VST, Raspberry Pi, Web Audio, and more.
 
-🚀 Usage
-In Max/MSP: Copy the compressed text from the .maxpat files into your patcher. Ensure you use [pfft~] for the wrapper if running in standard Max.
+---
 
-In RNBO: Use fft-tracker1.7. Ensure to reconstruct the FFT chain (FFT -> Cartopol -> Count) before the gen~ object, as RNBO does not use pfft~.
+## 🚀 Usage
 
-📜 License & Copyright
-Copyright © 2020–2025 A-Tom Soundware
+**In Max/MSP:**
+Copy the compressed text from the `.maxpat` files into your patcher. Ensure you use `[pfft~]` for the wrapper if running in standard Max.
+
+**In RNBO:**
+Use `fft-tracker1.7`. Ensure to reconstruct the FFT chain (`FFT` -> `Cartopol` -> `Count`) before the `gen~` object, as RNBO does not use `pfft~`.
+
+---
+
+## v1.8.1 – Intelligent Tracking & Physics Update
+
+Major improvements to the tracking algorithm logic inside `gen~` to increase stability and musicality.
+
+### 1. Smart Voice Cleanup (Anti-Ghosting)
+* **Previously:** Voices detected too close to a louder neighbor (within 3 bins) were simply silenced (`-1`). This caused gaps/dropouts in dense chords.
+* **Now:** Implemented a "Shift-Down" logic. If Voice 2 is too close to Voice 1, it is discarded, but Voice 3 automatically moves up to take the slot of Voice 2.
+* **Result:** Much richer chords and full 4-voice polyphony without "dead" slots.
+
+### 2. Spectral Weighting (Bass Bias)
+* **The Problem:** High-frequency harmonics often have more energy than the fundamental, causing the tracker to jump octaves erroneously.
+* **The Solution:** Added a weighting function `10.0 / sqrt(i)` during the peak scanning phase. This gives a gentle preference to lower frequencies (fundamentals) when ranking "winning" peaks.
+* **Result:** Rock-solid root note detection and less jittery octave jumping.
+
+### 3. True Amplitude Restoration
+* **Detail:** While the algorithm uses *weighted* values to find the best frequencies, the final output volume (`out2`, `out4`, etc.) now retrieves the **raw, unweighted amplitude** from the spectrum buffer.
+* **Result:** The tracking is biased towards fundamentals, but the output volume remains physically accurate to the audio source (no artificial volume drop for high notes).
+
+---
+
+## 📜 License & Copyright
+**Copyright © 2020–2025 A-Tom Soundware**
 
 This Max/RNBO patch is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
@@ -46,5 +74,6 @@ This patch is distributed in the hope that it will be useful, but WITHOUT ANY WA
 
 A copy of the GNU General Public License is available at https://www.gnu.org/licenses/gpl-3.0.html.
 
-❤️ Support A-Tom Soundware
-If you like this free patch and want to support its continued development, you can support me here: https://payhip.com/b/CwZ9A
+### ❤️ Support A-Tom Soundware
+If you like this free patch and want to support its continued development, you can support me here:
+[https://payhip.com/b/CwZ9A](https://payhip.com/b/CwZ9A)
